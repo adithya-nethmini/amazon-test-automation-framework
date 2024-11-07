@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test parallel="methods" thread-count="2" verbose="2" preserve-order="true"
+          name="D:/.UCSC_IS/.Years/Fourth Year/IS4102 - Advanced Software Quality Assurance/Assignment II/test-automation-framework">
+        <classes>
+            <class name="page_object_model.tests.AmazonTest">
+                <methods>
+                    <include name="searchComputers"/>
+                    <include name="exploreHomeDecor"/>
+                    <include name="exploreGiftCards"/>
+                    <include name="searchFashion"/>
+                    <include name="searchArtsCrafts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
